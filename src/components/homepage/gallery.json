@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_menu_picture_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "shopping-basket",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
